@@ -1,0 +1,90 @@
+-- BP 7.1 content: ModelClass syschar: 3 persistence-version: 7.1.5
+
+INSERT INTO O_OBJ
+	VALUES ("ef0b6412-129a-4e86-a40e-cff930bf8f72",
+	'AccType',
+	4,
+	'AccType',
+	'',
+	"41081d26-9186-4900-922b-8894d739a2cb");
+INSERT INTO O_TFR
+	VALUES ("5304573a-06cd-422e-b24d-08b53359bdad",
+	"ef0b6412-129a-4e86-a40e-cff930bf8f72",
+	'getNrAvailableAcc',
+	'',
+	"393ccab7-0d6c-47d5-9d8c-af30cbd6bd57",
+	1,
+	'',
+	3,
+	'',
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO O_TPARM
+	VALUES ("771d155d-8103-468d-9ca3-2a3093d22194",
+	"5304573a-06cd-422e-b24d-08b53359bdad",
+	'startDate',
+	"e365e4dd-3545-4f41-b6ea-a8f2832430e5",
+	0,
+	'',
+	"00000000-0000-0000-0000-000000000000",
+	'');
+INSERT INTO S_DT_PROXY
+	VALUES ("e365e4dd-3545-4f41-b6ea-a8f2832430e5",
+	"608361a8-6a66-4464-a134-856f135ef7f6",
+	'date',
+	'Time as known in the external world. For example, 12 October 1492,
+13:25:10. The accuracy of external time is dependent on the architecture and
+implementation.',
+	'',
+	'../../Datatypes/Datatypes.xtuml');
+INSERT INTO O_TPARM
+	VALUES ("a7c41b62-e013-4dd0-8ba1-fd257f364094",
+	"5304573a-06cd-422e-b24d-08b53359bdad",
+	'endDate',
+	"e365e4dd-3545-4f41-b6ea-a8f2832430e5",
+	0,
+	'',
+	"771d155d-8103-468d-9ca3-2a3093d22194",
+	'');
+INSERT INTO S_DT_PROXY
+	VALUES ("393ccab7-0d6c-47d5-9d8c-af30cbd6bd57",
+	"608361a8-6a66-4464-a134-856f135ef7f6",
+	'integer',
+	'',
+	'',
+	'../../Datatypes/Datatypes.xtuml');
+INSERT INTO O_NBATTR
+	VALUES ("2f6066d4-307e-493b-920f-33d3cbfa0820",
+	"ef0b6412-129a-4e86-a40e-cff930bf8f72");
+INSERT INTO O_BATTR
+	VALUES ("2f6066d4-307e-493b-920f-33d3cbfa0820",
+	"ef0b6412-129a-4e86-a40e-cff930bf8f72");
+INSERT INTO O_ATTR
+	VALUES ("2f6066d4-307e-493b-920f-33d3cbfa0820",
+	"ef0b6412-129a-4e86-a40e-cff930bf8f72",
+	"00000000-0000-0000-0000-000000000000",
+	'price',
+	'',
+	'',
+	'price',
+	0,
+	"393ccab7-0d6c-47d5-9d8c-af30cbd6bd57",
+	'',
+	'');
+INSERT INTO O_ID
+	VALUES (0,
+	"ef0b6412-129a-4e86-a40e-cff930bf8f72");
+INSERT INTO O_ID
+	VALUES (1,
+	"ef0b6412-129a-4e86-a40e-cff930bf8f72");
+INSERT INTO O_ID
+	VALUES (2,
+	"ef0b6412-129a-4e86-a40e-cff930bf8f72");
+INSERT INTO S_SS_PROXY
+	VALUES ("41081d26-9186-4900-922b-8894d739a2cb",
+	'BookingCreate',
+	'',
+	'',
+	0,
+	"608361a8-6a66-4464-a134-856f135ef7f6",
+	"00000000-0000-0000-0000-000000000000",
+	'../BookingCreate.xtuml');

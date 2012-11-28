@@ -1,0 +1,27 @@
+-- BP 7.1 content: ModelClass syschar: 3 persistence-version: 7.1.5
+
+INSERT INTO O_OBJ
+	VALUES ("7e6e048d-112f-455d-a47e-148170584593",
+	'Customer',
+	2,
+	'KEY',
+	'',
+	"2e61fa40-98f3-478e-8048-bc936f88574f");
+INSERT INTO O_ID
+	VALUES (0,
+	"7e6e048d-112f-455d-a47e-148170584593");
+INSERT INTO O_ID
+	VALUES (1,
+	"7e6e048d-112f-455d-a47e-148170584593");
+INSERT INTO O_ID
+	VALUES (2,
+	"7e6e048d-112f-455d-a47e-148170584593");
+INSERT INTO S_SS_PROXY
+	VALUES ("2e61fa40-98f3-478e-8048-bc936f88574f",
+	'BookingFianl',
+	'',
+	'',
+	0,
+	"608361a8-6a66-4464-a134-856f135ef7f6",
+	"00000000-0000-0000-0000-000000000000",
+	'../BookingFianl.xtuml');

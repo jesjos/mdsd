@@ -1,0 +1,70 @@
+-- BP 7.1 content: ModelClass syschar: 3 persistence-version: 7.1.5
+
+INSERT INTO O_OBJ
+	VALUES ("c8fb36c9-d9da-4436-a886-f7f0be16ad2c",
+	'AccRequest',
+	2,
+	'AccRequest',
+	'',
+	"41081d26-9186-4900-922b-8894d739a2cb");
+INSERT INTO O_NBATTR
+	VALUES ("c6cd0919-82e4-4f6c-a0bc-a97157dfa713",
+	"c8fb36c9-d9da-4436-a886-f7f0be16ad2c");
+INSERT INTO O_BATTR
+	VALUES ("c6cd0919-82e4-4f6c-a0bc-a97157dfa713",
+	"c8fb36c9-d9da-4436-a886-f7f0be16ad2c");
+INSERT INTO O_ATTR
+	VALUES ("c6cd0919-82e4-4f6c-a0bc-a97157dfa713",
+	"c8fb36c9-d9da-4436-a886-f7f0be16ad2c",
+	"00000000-0000-0000-0000-000000000000",
+	'numAdults',
+	'',
+	'',
+	'numAdults',
+	0,
+	"393ccab7-0d6c-47d5-9d8c-af30cbd6bd57",
+	'',
+	'');
+INSERT INTO S_DT_PROXY
+	VALUES ("393ccab7-0d6c-47d5-9d8c-af30cbd6bd57",
+	"608361a8-6a66-4464-a134-856f135ef7f6",
+	'integer',
+	'',
+	'',
+	'../../Datatypes/Datatypes.xtuml');
+INSERT INTO O_NBATTR
+	VALUES ("9c3541d7-5660-4080-8a02-c9b778c4d9e6",
+	"c8fb36c9-d9da-4436-a886-f7f0be16ad2c");
+INSERT INTO O_BATTR
+	VALUES ("9c3541d7-5660-4080-8a02-c9b778c4d9e6",
+	"c8fb36c9-d9da-4436-a886-f7f0be16ad2c");
+INSERT INTO O_ATTR
+	VALUES ("9c3541d7-5660-4080-8a02-c9b778c4d9e6",
+	"c8fb36c9-d9da-4436-a886-f7f0be16ad2c",
+	"c6cd0919-82e4-4f6c-a0bc-a97157dfa713",
+	'numChildren',
+	'',
+	'',
+	'numChildren',
+	0,
+	"393ccab7-0d6c-47d5-9d8c-af30cbd6bd57",
+	'',
+	'');
+INSERT INTO O_ID
+	VALUES (0,
+	"c8fb36c9-d9da-4436-a886-f7f0be16ad2c");
+INSERT INTO O_ID
+	VALUES (1,
+	"c8fb36c9-d9da-4436-a886-f7f0be16ad2c");
+INSERT INTO O_ID
+	VALUES (2,
+	"c8fb36c9-d9da-4436-a886-f7f0be16ad2c");
+INSERT INTO S_SS_PROXY
+	VALUES ("41081d26-9186-4900-922b-8894d739a2cb",
+	'BookingCreate',
+	'',
+	'',
+	0,
+	"608361a8-6a66-4464-a134-856f135ef7f6",
+	"00000000-0000-0000-0000-000000000000",
+	'../BookingCreate.xtuml');

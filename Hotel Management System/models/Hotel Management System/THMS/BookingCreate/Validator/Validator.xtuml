@@ -1,0 +1,88 @@
+-- BP 7.1 content: ModelClass syschar: 3 persistence-version: 7.1.5
+
+INSERT INTO O_OBJ
+	VALUES ("4d4f07fd-202c-4a43-bb05-6a0e1af733dd",
+	'Validator',
+	10,
+	'Validator',
+	'',
+	"41081d26-9186-4900-922b-8894d739a2cb");
+INSERT INTO O_TFR
+	VALUES ("e3a09da0-5eb2-4c32-85a6-e5396bf01735",
+	"4d4f07fd-202c-4a43-bb05-6a0e1af733dd",
+	'validatePersInfo',
+	'',
+	"8a95ce13-a361-4188-a8ec-b3bd45b1d5ae",
+	1,
+	'',
+	3,
+	'',
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO O_TPARM
+	VALUES ("0564cba1-20a0-45df-9d2d-12aee67fd927",
+	"e3a09da0-5eb2-4c32-85a6-e5396bf01735",
+	'pi',
+	"4ba6568e-7ba6-4a20-8b71-9c224f8abadb",
+	0,
+	'',
+	"00000000-0000-0000-0000-000000000000",
+	'');
+INSERT INTO S_DT_PROXY
+	VALUES ("4ba6568e-7ba6-4a20-8b71-9c224f8abadb",
+	"608361a8-6a66-4464-a134-856f135ef7f6",
+	'PresonalInfo',
+	'',
+	'',
+	'../../Datatypes/Datatypes.xtuml');
+INSERT INTO S_DT_PROXY
+	VALUES ("8a95ce13-a361-4188-a8ec-b3bd45b1d5ae",
+	"608361a8-6a66-4464-a134-856f135ef7f6",
+	'boolean',
+	'',
+	'',
+	'../../Datatypes/Datatypes.xtuml');
+INSERT INTO O_TFR
+	VALUES ("2c980a14-5904-4cc1-90e2-26cafe59feef",
+	"4d4f07fd-202c-4a43-bb05-6a0e1af733dd",
+	'validateCreditCardInfo',
+	'',
+	"8a95ce13-a361-4188-a8ec-b3bd45b1d5ae",
+	1,
+	'',
+	3,
+	'',
+	"e3a09da0-5eb2-4c32-85a6-e5396bf01735");
+INSERT INTO O_TPARM
+	VALUES ("5ed2f836-e7c1-42f7-9f95-3c95f81fc97b",
+	"2c980a14-5904-4cc1-90e2-26cafe59feef",
+	'ccInfo',
+	"e0b5f0a9-895e-4645-acfc-8b9e1158652e",
+	0,
+	'',
+	"00000000-0000-0000-0000-000000000000",
+	'');
+INSERT INTO S_DT_PROXY
+	VALUES ("e0b5f0a9-895e-4645-acfc-8b9e1158652e",
+	"608361a8-6a66-4464-a134-856f135ef7f6",
+	'CreditCardInfo',
+	'',
+	'',
+	'../../Datatypes/Datatypes.xtuml');
+INSERT INTO O_ID
+	VALUES (0,
+	"4d4f07fd-202c-4a43-bb05-6a0e1af733dd");
+INSERT INTO O_ID
+	VALUES (1,
+	"4d4f07fd-202c-4a43-bb05-6a0e1af733dd");
+INSERT INTO O_ID
+	VALUES (2,
+	"4d4f07fd-202c-4a43-bb05-6a0e1af733dd");
+INSERT INTO S_SS_PROXY
+	VALUES ("41081d26-9186-4900-922b-8894d739a2cb",
+	'BookingCreate',
+	'',
+	'',
+	0,
+	"608361a8-6a66-4464-a134-856f135ef7f6",
+	"00000000-0000-0000-0000-000000000000",
+	'../BookingCreate.xtuml');

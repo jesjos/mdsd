@@ -1,0 +1,350 @@
+-- BP 7.1 content: ModelClass syschar: 3 persistence-version: 7.1.5
+
+INSERT INTO O_OBJ
+	VALUES ("063a512e-1765-4bf6-b8e9-30e96f26b51a",
+	'BookingDispatcher',
+	7,
+	'BookingDispatcher',
+	'',
+	"41081d26-9186-4900-922b-8894d739a2cb");
+INSERT INTO O_TFR
+	VALUES ("48fe4b94-2fdc-4f89-b8b5-29abd6203fc1",
+	"063a512e-1765-4bf6-b8e9-30e96f26b51a",
+	'applyDiscount',
+	'',
+	"8a95ce13-a361-4188-a8ec-b3bd45b1d5ae",
+	1,
+	'',
+	3,
+	'',
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO S_DT_PROXY
+	VALUES ("8a95ce13-a361-4188-a8ec-b3bd45b1d5ae",
+	"608361a8-6a66-4464-a134-856f135ef7f6",
+	'boolean',
+	'',
+	'',
+	'../../Datatypes/Datatypes.xtuml');
+INSERT INTO O_TFR
+	VALUES ("e7a898f2-4578-4c59-a03c-c3b5d3e04ba6",
+	"063a512e-1765-4bf6-b8e9-30e96f26b51a",
+	'requestSummary',
+	'',
+	"e27a99d5-5796-4acb-822f-4b81ca0821b1",
+	1,
+	'',
+	3,
+	'',
+	"48fe4b94-2fdc-4f89-b8b5-29abd6203fc1");
+INSERT INTO S_DT_PROXY
+	VALUES ("e27a99d5-5796-4acb-822f-4b81ca0821b1",
+	"608361a8-6a66-4464-a134-856f135ef7f6",
+	'Summary',
+	'',
+	'',
+	'../../Datatypes/Datatypes.xtuml');
+INSERT INTO O_TFR
+	VALUES ("d9c18807-c086-4e99-8e92-f2fa6b504be7",
+	"063a512e-1765-4bf6-b8e9-30e96f26b51a",
+	'add',
+	'',
+	"8a95ce13-a361-4188-a8ec-b3bd45b1d5ae",
+	1,
+	'',
+	3,
+	'',
+	"e7a898f2-4578-4c59-a03c-c3b5d3e04ba6");
+INSERT INTO O_TPARM
+	VALUES ("0668c045-ae7c-44bf-a4af-17da2c620479",
+	"d9c18807-c086-4e99-8e92-f2fa6b504be7",
+	'accType',
+	"df8b42c0-8a32-45cd-8f22-70ecf1549a73",
+	0,
+	'',
+	"00000000-0000-0000-0000-000000000000",
+	'');
+INSERT INTO S_DT_PROXY
+	VALUES ("df8b42c0-8a32-45cd-8f22-70ecf1549a73",
+	"608361a8-6a66-4464-a134-856f135ef7f6",
+	'AccType',
+	'',
+	'',
+	'../../Datatypes/Datatypes.xtuml');
+INSERT INTO O_TFR
+	VALUES ("1730f98e-496f-4301-86aa-3a3f0e2d130b",
+	"063a512e-1765-4bf6-b8e9-30e96f26b51a",
+	'requestDiscount',
+	'',
+	"bba403a7-118a-4bb7-a524-8b845e91644d",
+	1,
+	'',
+	3,
+	'',
+	"d9c18807-c086-4e99-8e92-f2fa6b504be7");
+INSERT INTO O_TPARM
+	VALUES ("822bcb9c-be1f-4950-aad2-25cecbd6ec95",
+	"1730f98e-496f-4301-86aa-3a3f0e2d130b",
+	'code',
+	"bba403a7-118a-4bb7-a524-8b845e91644d",
+	0,
+	'',
+	"00000000-0000-0000-0000-000000000000",
+	'');
+INSERT INTO S_DT_PROXY
+	VALUES ("bba403a7-118a-4bb7-a524-8b845e91644d",
+	"608361a8-6a66-4464-a134-856f135ef7f6",
+	'string',
+	'',
+	'',
+	'../../Datatypes/Datatypes.xtuml');
+INSERT INTO O_TFR
+	VALUES ("34185c03-21c3-4455-8d54-75a86c035b4b",
+	"063a512e-1765-4bf6-b8e9-30e96f26b51a",
+	'registerDiscount',
+	'',
+	"06369869-0f2d-48c1-a34e-271c9771cbe7",
+	1,
+	'',
+	3,
+	'',
+	"1730f98e-496f-4301-86aa-3a3f0e2d130b");
+INSERT INTO O_TPARM
+	VALUES ("aade40e6-8085-49c1-9b84-b2173f0f515b",
+	"34185c03-21c3-4455-8d54-75a86c035b4b",
+	'discount',
+	"9682bdbd-c325-4701-80e9-8c72ae6d3672",
+	0,
+	'',
+	"00000000-0000-0000-0000-000000000000",
+	'');
+INSERT INTO S_DT_PROXY
+	VALUES ("9682bdbd-c325-4701-80e9-8c72ae6d3672",
+	"608361a8-6a66-4464-a134-856f135ef7f6",
+	'Discount',
+	'',
+	'',
+	'../../Datatypes/Datatypes.xtuml');
+INSERT INTO S_DT_PROXY
+	VALUES ("06369869-0f2d-48c1-a34e-271c9771cbe7",
+	"608361a8-6a66-4464-a134-856f135ef7f6",
+	'void',
+	'',
+	'',
+	'../../Datatypes/Datatypes.xtuml');
+INSERT INTO O_TFR
+	VALUES ("8e4e4c2d-f524-43d6-b2de-b1bade2b4c3f",
+	"063a512e-1765-4bf6-b8e9-30e96f26b51a",
+	'respondToSummary',
+	'',
+	"bba403a7-118a-4bb7-a524-8b845e91644d",
+	1,
+	'',
+	3,
+	'',
+	"34185c03-21c3-4455-8d54-75a86c035b4b");
+INSERT INTO O_TPARM
+	VALUES ("eee22515-f02a-4a8a-b72c-6e999a40d432",
+	"8e4e4c2d-f524-43d6-b2de-b1bade2b4c3f",
+	'confirm',
+	"8a95ce13-a361-4188-a8ec-b3bd45b1d5ae",
+	0,
+	'',
+	"00000000-0000-0000-0000-000000000000",
+	'');
+INSERT INTO O_TFR
+	VALUES ("f2920407-b09c-401e-920f-33f4490ee33b",
+	"063a512e-1765-4bf6-b8e9-30e96f26b51a",
+	'destroyBookingDispatcher',
+	'',
+	"06369869-0f2d-48c1-a34e-271c9771cbe7",
+	1,
+	'',
+	3,
+	'',
+	"8e4e4c2d-f524-43d6-b2de-b1bade2b4c3f");
+INSERT INTO O_TFR
+	VALUES ("e5a965a0-6a90-4c93-a00a-303d31a522c6",
+	"063a512e-1765-4bf6-b8e9-30e96f26b51a",
+	'providePersInfo',
+	'',
+	"8a95ce13-a361-4188-a8ec-b3bd45b1d5ae",
+	1,
+	'',
+	3,
+	'',
+	"f2920407-b09c-401e-920f-33f4490ee33b");
+INSERT INTO O_TPARM
+	VALUES ("21b2faaf-44e7-4a32-a0ce-964efe1c8a15",
+	"e5a965a0-6a90-4c93-a00a-303d31a522c6",
+	'firstName',
+	"bba403a7-118a-4bb7-a524-8b845e91644d",
+	0,
+	'',
+	"00000000-0000-0000-0000-000000000000",
+	'');
+INSERT INTO O_TPARM
+	VALUES ("16ae4999-ce3a-4f88-950e-2f3833c6d96c",
+	"e5a965a0-6a90-4c93-a00a-303d31a522c6",
+	'lastName',
+	"393ccab7-0d6c-47d5-9d8c-af30cbd6bd57",
+	0,
+	'',
+	"21b2faaf-44e7-4a32-a0ce-964efe1c8a15",
+	'');
+INSERT INTO S_DT_PROXY
+	VALUES ("393ccab7-0d6c-47d5-9d8c-af30cbd6bd57",
+	"608361a8-6a66-4464-a134-856f135ef7f6",
+	'integer',
+	'',
+	'',
+	'../../Datatypes/Datatypes.xtuml');
+INSERT INTO O_TPARM
+	VALUES ("a2d93eaf-56c9-459e-89e9-b0ba727ed2c2",
+	"e5a965a0-6a90-4c93-a00a-303d31a522c6",
+	'email',
+	"bba403a7-118a-4bb7-a524-8b845e91644d",
+	0,
+	'',
+	"16ae4999-ce3a-4f88-950e-2f3833c6d96c",
+	'');
+INSERT INTO O_TPARM
+	VALUES ("acb6484d-5bb8-4daf-b1c1-ed6f5c362bd7",
+	"e5a965a0-6a90-4c93-a00a-303d31a522c6",
+	'telephone',
+	"bba403a7-118a-4bb7-a524-8b845e91644d",
+	0,
+	'',
+	"a2d93eaf-56c9-459e-89e9-b0ba727ed2c2",
+	'');
+INSERT INTO O_TPARM
+	VALUES ("a0f7c7b4-0528-460f-a32a-d8641d05bc7c",
+	"e5a965a0-6a90-4c93-a00a-303d31a522c6",
+	'id_number',
+	"bba403a7-118a-4bb7-a524-8b845e91644d",
+	0,
+	'',
+	"acb6484d-5bb8-4daf-b1c1-ed6f5c362bd7",
+	'');
+INSERT INTO O_TPARM
+	VALUES ("9fe4a152-87e6-4195-8f75-79e3058d3959",
+	"e5a965a0-6a90-4c93-a00a-303d31a522c6",
+	'address',
+	"bba403a7-118a-4bb7-a524-8b845e91644d",
+	0,
+	'',
+	"a0f7c7b4-0528-460f-a32a-d8641d05bc7c",
+	'');
+INSERT INTO O_TFR
+	VALUES ("10cf57a5-a1bb-4e47-a525-c0118ba94505",
+	"063a512e-1765-4bf6-b8e9-30e96f26b51a",
+	'provideCreditCardInfo',
+	'',
+	"8a95ce13-a361-4188-a8ec-b3bd45b1d5ae",
+	1,
+	'',
+	3,
+	'',
+	"e5a965a0-6a90-4c93-a00a-303d31a522c6");
+INSERT INTO O_TPARM
+	VALUES ("8dbd62d0-51e4-483a-879d-fae543d51d8e",
+	"10cf57a5-a1bb-4e47-a525-c0118ba94505",
+	'cardType',
+	"bba403a7-118a-4bb7-a524-8b845e91644d",
+	0,
+	'',
+	"00000000-0000-0000-0000-000000000000",
+	'');
+INSERT INTO O_TPARM
+	VALUES ("42a15dd9-cad2-414a-be1a-ce67d72e2e44",
+	"10cf57a5-a1bb-4e47-a525-c0118ba94505",
+	'cardNo',
+	"bba403a7-118a-4bb7-a524-8b845e91644d",
+	0,
+	'',
+	"8dbd62d0-51e4-483a-879d-fae543d51d8e",
+	'');
+INSERT INTO O_TPARM
+	VALUES ("6ba75dd9-ad3a-4641-909b-511e457149f1",
+	"10cf57a5-a1bb-4e47-a525-c0118ba94505",
+	'validMonth',
+	"bba403a7-118a-4bb7-a524-8b845e91644d",
+	0,
+	'',
+	"42a15dd9-cad2-414a-be1a-ce67d72e2e44",
+	'');
+INSERT INTO O_TPARM
+	VALUES ("79cde24f-d4bb-44e6-94e1-22a3c72219ff",
+	"10cf57a5-a1bb-4e47-a525-c0118ba94505",
+	'validYear',
+	"bba403a7-118a-4bb7-a524-8b845e91644d",
+	0,
+	'',
+	"6ba75dd9-ad3a-4641-909b-511e457149f1",
+	'');
+INSERT INTO O_TPARM
+	VALUES ("0f812b27-e4a4-4a37-b2f7-b2f999e481b3",
+	"10cf57a5-a1bb-4e47-a525-c0118ba94505",
+	'owner',
+	"bba403a7-118a-4bb7-a524-8b845e91644d",
+	0,
+	'',
+	"79cde24f-d4bb-44e6-94e1-22a3c72219ff",
+	'');
+INSERT INTO O_TPARM
+	VALUES ("f63ae1dd-3347-4260-a9c4-02de57a18961",
+	"10cf57a5-a1bb-4e47-a525-c0118ba94505",
+	'securityCode',
+	"bba403a7-118a-4bb7-a524-8b845e91644d",
+	0,
+	'',
+	"0f812b27-e4a4-4a37-b2f7-b2f999e481b3",
+	'');
+INSERT INTO O_TFR
+	VALUES ("b3b6788b-4d10-4438-8e86-223fcd84a00d",
+	"063a512e-1765-4bf6-b8e9-30e96f26b51a",
+	'sendConfirmationEmail',
+	'',
+	"06369869-0f2d-48c1-a34e-271c9771cbe7",
+	1,
+	'',
+	3,
+	'',
+	"10cf57a5-a1bb-4e47-a525-c0118ba94505");
+INSERT INTO O_TFR
+	VALUES ("842c026a-dfcb-41b3-a924-e32020e4670e",
+	"063a512e-1765-4bf6-b8e9-30e96f26b51a",
+	'respondToFinalSummary',
+	'',
+	"bba403a7-118a-4bb7-a524-8b845e91644d",
+	1,
+	'',
+	3,
+	'',
+	"b3b6788b-4d10-4438-8e86-223fcd84a00d");
+INSERT INTO O_TPARM
+	VALUES ("edeb4cc8-b5bc-4fc3-b32f-b07ffceecd01",
+	"842c026a-dfcb-41b3-a924-e32020e4670e",
+	'confirm',
+	"8a95ce13-a361-4188-a8ec-b3bd45b1d5ae",
+	0,
+	'',
+	"00000000-0000-0000-0000-000000000000",
+	'');
+INSERT INTO O_ID
+	VALUES (0,
+	"063a512e-1765-4bf6-b8e9-30e96f26b51a");
+INSERT INTO O_ID
+	VALUES (1,
+	"063a512e-1765-4bf6-b8e9-30e96f26b51a");
+INSERT INTO O_ID
+	VALUES (2,
+	"063a512e-1765-4bf6-b8e9-30e96f26b51a");
+INSERT INTO S_SS_PROXY
+	VALUES ("41081d26-9186-4900-922b-8894d739a2cb",
+	'BookingCreate',
+	'',
+	'',
+	0,
+	"608361a8-6a66-4464-a134-856f135ef7f6",
+	"00000000-0000-0000-0000-000000000000",
+	'../BookingCreate.xtuml');

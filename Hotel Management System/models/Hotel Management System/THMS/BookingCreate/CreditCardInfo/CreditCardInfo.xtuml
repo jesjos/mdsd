@@ -1,0 +1,142 @@
+-- BP 7.1 content: ModelClass syschar: 3 persistence-version: 7.1.5
+
+INSERT INTO O_OBJ
+	VALUES ("b591ed52-7dfa-4d06-83f1-20049c3fef63",
+	'CreditCardInfo',
+	12,
+	'CreditCardInfo',
+	'',
+	"41081d26-9186-4900-922b-8894d739a2cb");
+INSERT INTO O_NBATTR
+	VALUES ("916bef73-acc7-4b0d-a8c4-1e150f4b6df6",
+	"b591ed52-7dfa-4d06-83f1-20049c3fef63");
+INSERT INTO O_BATTR
+	VALUES ("916bef73-acc7-4b0d-a8c4-1e150f4b6df6",
+	"b591ed52-7dfa-4d06-83f1-20049c3fef63");
+INSERT INTO O_ATTR
+	VALUES ("916bef73-acc7-4b0d-a8c4-1e150f4b6df6",
+	"b591ed52-7dfa-4d06-83f1-20049c3fef63",
+	"00000000-0000-0000-0000-000000000000",
+	'cardType',
+	'',
+	'',
+	'cardType',
+	0,
+	"bba403a7-118a-4bb7-a524-8b845e91644d",
+	'',
+	'');
+INSERT INTO S_DT_PROXY
+	VALUES ("bba403a7-118a-4bb7-a524-8b845e91644d",
+	"608361a8-6a66-4464-a134-856f135ef7f6",
+	'string',
+	'',
+	'',
+	'../../Datatypes/Datatypes.xtuml');
+INSERT INTO O_NBATTR
+	VALUES ("b8a03ac9-12af-4dd0-ade6-a3836cf2d9c5",
+	"b591ed52-7dfa-4d06-83f1-20049c3fef63");
+INSERT INTO O_BATTR
+	VALUES ("b8a03ac9-12af-4dd0-ade6-a3836cf2d9c5",
+	"b591ed52-7dfa-4d06-83f1-20049c3fef63");
+INSERT INTO O_ATTR
+	VALUES ("b8a03ac9-12af-4dd0-ade6-a3836cf2d9c5",
+	"b591ed52-7dfa-4d06-83f1-20049c3fef63",
+	"916bef73-acc7-4b0d-a8c4-1e150f4b6df6",
+	'cardNo',
+	'',
+	'',
+	'cardNo',
+	0,
+	"bba403a7-118a-4bb7-a524-8b845e91644d",
+	'',
+	'');
+INSERT INTO O_NBATTR
+	VALUES ("01ba462b-f391-4b26-bfb9-876530ec5d8c",
+	"b591ed52-7dfa-4d06-83f1-20049c3fef63");
+INSERT INTO O_BATTR
+	VALUES ("01ba462b-f391-4b26-bfb9-876530ec5d8c",
+	"b591ed52-7dfa-4d06-83f1-20049c3fef63");
+INSERT INTO O_ATTR
+	VALUES ("01ba462b-f391-4b26-bfb9-876530ec5d8c",
+	"b591ed52-7dfa-4d06-83f1-20049c3fef63",
+	"b8a03ac9-12af-4dd0-ade6-a3836cf2d9c5",
+	'validMonth',
+	'',
+	'',
+	'validMonth',
+	0,
+	"bba403a7-118a-4bb7-a524-8b845e91644d",
+	'',
+	'');
+INSERT INTO O_NBATTR
+	VALUES ("683e47cc-e8b5-4424-8177-387cc64641fd",
+	"b591ed52-7dfa-4d06-83f1-20049c3fef63");
+INSERT INTO O_BATTR
+	VALUES ("683e47cc-e8b5-4424-8177-387cc64641fd",
+	"b591ed52-7dfa-4d06-83f1-20049c3fef63");
+INSERT INTO O_ATTR
+	VALUES ("683e47cc-e8b5-4424-8177-387cc64641fd",
+	"b591ed52-7dfa-4d06-83f1-20049c3fef63",
+	"01ba462b-f391-4b26-bfb9-876530ec5d8c",
+	'validYear',
+	'',
+	'',
+	'validYear',
+	0,
+	"bba403a7-118a-4bb7-a524-8b845e91644d",
+	'',
+	'');
+INSERT INTO O_NBATTR
+	VALUES ("7c624d3e-bc08-4d21-993a-59c982a64467",
+	"b591ed52-7dfa-4d06-83f1-20049c3fef63");
+INSERT INTO O_BATTR
+	VALUES ("7c624d3e-bc08-4d21-993a-59c982a64467",
+	"b591ed52-7dfa-4d06-83f1-20049c3fef63");
+INSERT INTO O_ATTR
+	VALUES ("7c624d3e-bc08-4d21-993a-59c982a64467",
+	"b591ed52-7dfa-4d06-83f1-20049c3fef63",
+	"683e47cc-e8b5-4424-8177-387cc64641fd",
+	'owner',
+	'',
+	'',
+	'owner',
+	0,
+	"bba403a7-118a-4bb7-a524-8b845e91644d",
+	'',
+	'');
+INSERT INTO O_NBATTR
+	VALUES ("ba10c29e-b5c9-4f73-9475-76373b1884be",
+	"b591ed52-7dfa-4d06-83f1-20049c3fef63");
+INSERT INTO O_BATTR
+	VALUES ("ba10c29e-b5c9-4f73-9475-76373b1884be",
+	"b591ed52-7dfa-4d06-83f1-20049c3fef63");
+INSERT INTO O_ATTR
+	VALUES ("ba10c29e-b5c9-4f73-9475-76373b1884be",
+	"b591ed52-7dfa-4d06-83f1-20049c3fef63",
+	"7c624d3e-bc08-4d21-993a-59c982a64467",
+	'securityCode',
+	'',
+	'',
+	'securityCode',
+	0,
+	"bba403a7-118a-4bb7-a524-8b845e91644d",
+	'',
+	'');
+INSERT INTO O_ID
+	VALUES (0,
+	"b591ed52-7dfa-4d06-83f1-20049c3fef63");
+INSERT INTO O_ID
+	VALUES (1,
+	"b591ed52-7dfa-4d06-83f1-20049c3fef63");
+INSERT INTO O_ID
+	VALUES (2,
+	"b591ed52-7dfa-4d06-83f1-20049c3fef63");
+INSERT INTO S_SS_PROXY
+	VALUES ("41081d26-9186-4900-922b-8894d739a2cb",
+	'BookingCreate',
+	'',
+	'',
+	0,
+	"608361a8-6a66-4464-a134-856f135ef7f6",
+	"00000000-0000-0000-0000-000000000000",
+	'../BookingCreate.xtuml');

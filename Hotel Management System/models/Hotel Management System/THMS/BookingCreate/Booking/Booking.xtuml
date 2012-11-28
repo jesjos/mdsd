@@ -1,0 +1,52 @@
+-- BP 7.1 content: ModelClass syschar: 3 persistence-version: 7.1.5
+
+INSERT INTO O_OBJ
+	VALUES ("796a98d6-ed19-4d26-a324-32366ecdcee6",
+	'Booking',
+	15,
+	'Booking',
+	'',
+	"41081d26-9186-4900-922b-8894d739a2cb");
+INSERT INTO O_NBATTR
+	VALUES ("e99cff7f-81de-42f5-8810-74e2484654b6",
+	"796a98d6-ed19-4d26-a324-32366ecdcee6");
+INSERT INTO O_BATTR
+	VALUES ("e99cff7f-81de-42f5-8810-74e2484654b6",
+	"796a98d6-ed19-4d26-a324-32366ecdcee6");
+INSERT INTO O_ATTR
+	VALUES ("e99cff7f-81de-42f5-8810-74e2484654b6",
+	"796a98d6-ed19-4d26-a324-32366ecdcee6",
+	"00000000-0000-0000-0000-000000000000",
+	'referenceNr',
+	'',
+	'',
+	'referenceNr',
+	0,
+	"bba403a7-118a-4bb7-a524-8b845e91644d",
+	'',
+	'');
+INSERT INTO S_DT_PROXY
+	VALUES ("bba403a7-118a-4bb7-a524-8b845e91644d",
+	"608361a8-6a66-4464-a134-856f135ef7f6",
+	'string',
+	'',
+	'',
+	'../../Datatypes/Datatypes.xtuml');
+INSERT INTO O_ID
+	VALUES (0,
+	"796a98d6-ed19-4d26-a324-32366ecdcee6");
+INSERT INTO O_ID
+	VALUES (1,
+	"796a98d6-ed19-4d26-a324-32366ecdcee6");
+INSERT INTO O_ID
+	VALUES (2,
+	"796a98d6-ed19-4d26-a324-32366ecdcee6");
+INSERT INTO S_SS_PROXY
+	VALUES ("41081d26-9186-4900-922b-8894d739a2cb",
+	'BookingCreate',
+	'',
+	'',
+	0,
+	"608361a8-6a66-4464-a134-856f135ef7f6",
+	"00000000-0000-0000-0000-000000000000",
+	'../BookingCreate.xtuml');

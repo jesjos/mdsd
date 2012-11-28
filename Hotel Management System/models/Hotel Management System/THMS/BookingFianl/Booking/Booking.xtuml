@@ -1,0 +1,140 @@
+-- BP 7.1 content: ModelClass syschar: 3 persistence-version: 7.1.5
+
+INSERT INTO O_OBJ
+	VALUES ("bd7e5b8b-db47-40e9-9bfb-b4878d232129",
+	'Booking',
+	1,
+	'KEY',
+	'',
+	"2e61fa40-98f3-478e-8048-bc936f88574f");
+INSERT INTO O_NBATTR
+	VALUES ("76cae517-8975-453c-9161-0b4a1f2be5cf",
+	"bd7e5b8b-db47-40e9-9bfb-b4878d232129");
+INSERT INTO O_BATTR
+	VALUES ("76cae517-8975-453c-9161-0b4a1f2be5cf",
+	"bd7e5b8b-db47-40e9-9bfb-b4878d232129");
+INSERT INTO O_ATTR
+	VALUES ("76cae517-8975-453c-9161-0b4a1f2be5cf",
+	"bd7e5b8b-db47-40e9-9bfb-b4878d232129",
+	"00000000-0000-0000-0000-000000000000",
+	'refNum',
+	'',
+	'',
+	'refNum',
+	0,
+	"1964370a-2261-4323-9cf6-6a3b2f4297b6",
+	'',
+	'');
+INSERT INTO S_DT_PROXY
+	VALUES ("1964370a-2261-4323-9cf6-6a3b2f4297b6",
+	"608361a8-6a66-4464-a134-856f135ef7f6",
+	'unique_id',
+	'',
+	'',
+	'../../Datatypes/Datatypes.xtuml');
+INSERT INTO O_NBATTR
+	VALUES ("c671aed8-7bb9-4af0-91c7-c43f032933bb",
+	"bd7e5b8b-db47-40e9-9bfb-b4878d232129");
+INSERT INTO O_BATTR
+	VALUES ("c671aed8-7bb9-4af0-91c7-c43f032933bb",
+	"bd7e5b8b-db47-40e9-9bfb-b4878d232129");
+INSERT INTO O_ATTR
+	VALUES ("c671aed8-7bb9-4af0-91c7-c43f032933bb",
+	"bd7e5b8b-db47-40e9-9bfb-b4878d232129",
+	"76cae517-8975-453c-9161-0b4a1f2be5cf",
+	'startDate',
+	'',
+	'',
+	'startDate',
+	0,
+	"e365e4dd-3545-4f41-b6ea-a8f2832430e5",
+	'',
+	'');
+INSERT INTO S_DT_PROXY
+	VALUES ("e365e4dd-3545-4f41-b6ea-a8f2832430e5",
+	"608361a8-6a66-4464-a134-856f135ef7f6",
+	'date',
+	'Time as known in the external world. For example, 12 October 1492,
+13:25:10. The accuracy of external time is dependent on the architecture and
+implementation.',
+	'',
+	'../../Datatypes/Datatypes.xtuml');
+INSERT INTO O_NBATTR
+	VALUES ("664251d8-c71e-4db4-ab9c-370661c12dcd",
+	"bd7e5b8b-db47-40e9-9bfb-b4878d232129");
+INSERT INTO O_BATTR
+	VALUES ("664251d8-c71e-4db4-ab9c-370661c12dcd",
+	"bd7e5b8b-db47-40e9-9bfb-b4878d232129");
+INSERT INTO O_ATTR
+	VALUES ("664251d8-c71e-4db4-ab9c-370661c12dcd",
+	"bd7e5b8b-db47-40e9-9bfb-b4878d232129",
+	"c671aed8-7bb9-4af0-91c7-c43f032933bb",
+	'endDate',
+	'',
+	'',
+	'endDate',
+	0,
+	"e365e4dd-3545-4f41-b6ea-a8f2832430e5",
+	'',
+	'');
+INSERT INTO O_NBATTR
+	VALUES ("7d794859-5067-46b6-9d7a-86e864983ca4",
+	"bd7e5b8b-db47-40e9-9bfb-b4878d232129");
+INSERT INTO O_BATTR
+	VALUES ("7d794859-5067-46b6-9d7a-86e864983ca4",
+	"bd7e5b8b-db47-40e9-9bfb-b4878d232129");
+INSERT INTO O_ATTR
+	VALUES ("7d794859-5067-46b6-9d7a-86e864983ca4",
+	"bd7e5b8b-db47-40e9-9bfb-b4878d232129",
+	"664251d8-c71e-4db4-ab9c-370661c12dcd",
+	'numAdults',
+	'',
+	'',
+	'numAdults',
+	0,
+	"393ccab7-0d6c-47d5-9d8c-af30cbd6bd57",
+	'',
+	'');
+INSERT INTO S_DT_PROXY
+	VALUES ("393ccab7-0d6c-47d5-9d8c-af30cbd6bd57",
+	"608361a8-6a66-4464-a134-856f135ef7f6",
+	'integer',
+	'',
+	'',
+	'../../Datatypes/Datatypes.xtuml');
+INSERT INTO O_NBATTR
+	VALUES ("0323b2b2-5ac6-4185-a744-86189c6c6dcd",
+	"bd7e5b8b-db47-40e9-9bfb-b4878d232129");
+INSERT INTO O_BATTR
+	VALUES ("0323b2b2-5ac6-4185-a744-86189c6c6dcd",
+	"bd7e5b8b-db47-40e9-9bfb-b4878d232129");
+INSERT INTO O_ATTR
+	VALUES ("0323b2b2-5ac6-4185-a744-86189c6c6dcd",
+	"bd7e5b8b-db47-40e9-9bfb-b4878d232129",
+	"7d794859-5067-46b6-9d7a-86e864983ca4",
+	'numChildren',
+	'',
+	'',
+	'numChildren',
+	0,
+	"393ccab7-0d6c-47d5-9d8c-af30cbd6bd57",
+	'',
+	'');
+INSERT INTO O_ID
+	VALUES (0,
+	"bd7e5b8b-db47-40e9-9bfb-b4878d232129");
+INSERT INTO O_ID
+	VALUES (1,
+	"bd7e5b8b-db47-40e9-9bfb-b4878d232129");
+INSERT INTO O_ID
+	VALUES (2,
+	"bd7e5b8b-db47-40e9-9bfb-b4878d232129");
+INSERT INTO S_SS_PROXY
+	VALUES ("2e61fa40-98f3-478e-8048-bc936f88574f",
+	'BookingFianl',
+	'',
+	'',
+	0,
+	"608361a8-6a66-4464-a134-856f135ef7f6",
+	"00000000-0000-0000-0000-000000000000",
+	'../BookingFianl.xtuml');
