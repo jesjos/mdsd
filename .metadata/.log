@@ -8,3 +8,42 @@ Command-line arguments:  -os win32 -ws win32 -arch x86 -product com.mentor.nucle
 
 !ENTRY org.eclipse.equinox.p2.repository 4 0 2012-11-28 12:14:04.865
 !MESSAGE ProvisioningEventBus could not be obtained. Metadata caches may not be cleaned up properly.
+!SESSION 2012-11-29 10:11:38.733 -----------------------------------------------
+eclipse.buildId=M20090211-1700
+java.version=1.6.0_07
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Command-line arguments:  -data C:\Users\IF\Documents\GitHub\mdsd -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.core.resources 2 10035 2012-11-29 10:11:41.620
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.ui 2 0 2012-11-29 10:11:43.586
+!MESSAGE Warnings while parsing the editor contributions from the 'org.eclipse.ui.editorActions' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2012-11-29 10:11:43.586
+!MESSAGE Actions require a non-empty label or definitionId: plug-in='com.mentor.nucleus.editor', id='AUTOGEN:::com.mentor.nucleus.editor.cppEditorBreakpointAction/com.mentor.nucleus.editor.cppEditor.doubleClickBreakpointAction'
+!SUBENTRY 1 org.eclipse.ui 2 0 2012-11-29 10:11:43.586
+!MESSAGE Actions require a non-empty label or definitionId: plug-in='com.mentor.nucleus.editor', id='AUTOGEN:::com.mentor.nucleus.editor.assemblyEditorBreakpointAction/com.mentor.nucleus.editor.assemblyEditor.doubleClickBreakpointAction'
+!SUBENTRY 1 org.eclipse.ui 2 0 2012-11-29 10:11:43.586
+!MESSAGE Actions require a non-empty label or definitionId: plug-in='com.mentor.nucleus.editor', id='AUTOGEN:::com.mentor.nucleus.editor.headerEditorBreakpointAction/com.mentor.nucleus.editor.headerEditor.doubleClickBreakpointAction'
+
+!ENTRY org.eclipse.jface 2 0 2012-11-29 10:11:58.046
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2012-11-29 10:11:58.047
+!MESSAGE A conflict occurred for CTRL+SHIFT+C:
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(atlCommands.commentBlock,ATL Command Comment Block,
+		,
+		Category(atlCategory,ATL Category,null,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(com.mentor.nucleus.builder.CompileFile,Compile File,
+		,
+		Category(com.mentor.nucleus.category.project,Project - EDGE,Project,true),
+		ActionDelegateHandlerProxy(null,com.mentor.nucleus.builder.views.navigator.NavigatorCompileFileAction),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
