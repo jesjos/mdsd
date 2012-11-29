@@ -636,7 +636,7 @@ INSERT INTO R_PART
 	"bcc5e326-cf97-47c2-b1f0-8cdfbb93b444",
 	"eb0f1483-483a-4aa6-90b7-f0790b0c49f8",
 	1,
-	1,
+	0,
 	'');
 INSERT INTO R_RTO
 	VALUES ("063a512e-1765-4bf6-b8e9-30e96f26b51a",

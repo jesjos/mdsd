@@ -47,3 +47,19 @@ Binding(CTRL+SHIFT+C,
 		,,true),null),
 	org.eclipse.ui.defaultAcceleratorConfiguration,
 	org.eclipse.ui.contexts.window,,,system)
+!SESSION 2012-11-29 10:15:52.208 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_07
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_GB
+Framework arguments:  -product com.mentor.nucleus.bp.pkg.BridgePoint
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product com.mentor.nucleus.bp.pkg.BridgePoint
+
+!ENTRY org.eclipse.equinox.p2.repository 4 0 2012-11-29 10:15:52.864
+!MESSAGE ProvisioningEventBus could not be obtained. Metadata caches may not be cleaned up properly.
+
+!ENTRY org.eclipse.core.resources 2 10035 2012-11-29 10:16:09.035
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.cdt.core 1 0 2012-11-29 10:16:16.582
+!MESSAGE Indexed 'Hotel Management System' (0 sources, 21 headers) in 0.67 sec: 640 declarations; 1,076 references; 2 unresolved inclusions; 0 syntax errors; 15 unresolved names (0.87%)
